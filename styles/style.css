@@ -43,13 +43,8 @@ body {
   width: 534px;
   margin: 20px auto;
 }
-
 .shopping-list__form ul {
   margin-bottom: 45px;
-}
-.shopping-list__table {
-  border-spacing: 0;
-  width: 534px;
 }
 .shopping-list__item {
   height: 45px;
@@ -90,15 +85,9 @@ body {
 .shopping-list__item:nth-child(even) {
   background-color: #7a7593;
 }
-.shopping-list__item td {
-  border-collapse: collapse;
-  vertical-align: middle;
-}
-
 .shopping-list input {
   vertical-align: baseline;
 }
-
 .shopping-list input:checked + .shopping-list__label {
   text-decoration: line-through;
   color: #9b96ac;
